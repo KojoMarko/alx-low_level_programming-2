@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 _ prints alphabets ten times
+ * print_alphabet_x10 - prints alphabets ten times
  *
  * Return: void
  */
@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	{
 		char c = 'a';
 
-		while (c < 'z')
+		while (c <= 'z')
 		{
 			_putchar(c);
 			c++;
