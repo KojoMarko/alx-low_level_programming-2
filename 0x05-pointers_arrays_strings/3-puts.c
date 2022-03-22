@@ -2,7 +2,7 @@
 
 /**
  * _puts - prints string to stdout
- * @*str - function argument
+ * @str: function argument
  * Return: void
  */
 void _puts(char *str)
