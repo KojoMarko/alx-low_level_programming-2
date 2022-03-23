@@ -5,16 +5,16 @@
  * @s: function argument
  * Return: length of string
  */
-int _strlen( char *s)
+int _strlen(char *s)
 {
-    int count;
+	int count;
 
-    count = 0;
+	count = 0;
 
-    while (s[count]!= '\0')
-    {
-        count++;
-    }
-  
-    return (count);
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+	return (count);
 }
+
