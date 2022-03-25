@@ -7,14 +7,14 @@
  */
 void _puts(char *str)
 {
-    int count;
+	int count;
 
-    count = 0;
-    while (str[count] != '\0')
-    {
-        _putchar(str[count]);
-        count++;
-    }
-    _putchar('\n');
-    
+	count = 0;
+
+	while (str[count] != '\0')
+	{
+		_putchar(str[count]);
+		count++;
+	}
+	_putchar('\n');
 }
