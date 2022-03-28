@@ -6,18 +6,16 @@
  * @c: function argument
  * Return: pointer to first occurrence of character
  */
-
 char *_strchr(char *s, char c)
 {
-    int i;
+	int i;
 
-    for (i = 0; *s != '\0'; i++)
-    {
-        if (c == *(s + i))
-        {
-            return ((s + i));
-        }
-    }
-
-  return ((s + i));
+	for (i = 0; *s != '\0'; i++)
+	{
+		if (c == *(s + i))
+		{
+			return ((s + i));
+		}
+	}
+	return ((s + i));
 }
